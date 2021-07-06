@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box input {
+    border-radius: 40px;
+    height: 30px;
+    width: 150px;
+}
+
+.box input:focus {
+    box-shadow: 4px 5px 6px green;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
